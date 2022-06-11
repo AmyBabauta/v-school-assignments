@@ -9,7 +9,7 @@ just fix the existing ones.
 
 // Written by Kent, Clark
 
-var enemies = ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var enemies= ["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
 function whoWins(isThereKryptonite, enemyName) {
 if (!isThereKryptonite)
@@ -26,9 +26,9 @@ for (var i = 0 ; i < enemies.length ; i++)
 {
     var isThereKryptonite
     if (i % 2 === 0) {
-        isThereKryptonite = true;
+        isThereKryptonite= true;
     } else {
-        isThereKryptonite = false;
+        isThereKryptonite= false;
     }
     console.log(whoWins(isThereKryptonite,enemies[i]));
 
@@ -45,10 +45,10 @@ var superman= false;
 
 while (clarkKent){
     console.log("I'm just a nerdy columnist");
-    var phoneBoothQuickChange =Math.random();
-    if (phoneBoothQuickChange>= 0.5) {
-        clarkKent=false;
-        superman=true;
+    var phoneBoothQuickChange = Math.random();
+    if (phoneBoothQuickChange >= 0.5) {
+        clarkKent= false;
+        superman= true;
         console.log("Now I'm Superman!");
     }
 }
