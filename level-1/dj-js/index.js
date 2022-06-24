@@ -31,3 +31,5 @@ document.getElementById("square").addEventListener("mouseup", (e) => mouseUp(e))
 document.getElementById("square").addEventListener("dblclick", (e) => doubleClick(e));
 
 document.body.addEventListener("wheel", (e) => handleScroll(e));
+
+var colorMap
